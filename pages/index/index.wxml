@@ -1,0 +1,17 @@
+<!-- <canvas type="webgl" id="webgl"></canvas> -->
+<div class="container">
+<canvas
+            id="webgl"
+            class="canvas1"
+            type="webgl"
+            disable-scroll = true
+            bindtouchstart="bindtouchstart_callback"
+            bindtouchmove="bindtouchmove_callback"
+            bindtouchend="bindtouchend_callback">
+            <cover-view class="cover-view">
+                <cover-view bindtap="toggleDeviceMotion">开启/ 关闭</cover-view>
+                <cover-view bindtap="toggleDeviceMotion">开启/ 关闭</cover-view>
+                <cover-view bindtap="toggleDeviceMotion">开启/ 关闭</cover-view>
+            </cover-view>
+      </canvas>
+      </div>
